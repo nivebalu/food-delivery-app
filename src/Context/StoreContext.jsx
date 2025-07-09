@@ -4,7 +4,7 @@ import { food_list } from "../assets/assets";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = ({ children }) => {
-  const [cartItems, serCartItems] = useState({});
+  const [cartItems, setCartItems] = useState({});
 
   const addToCart = (itemId) => {
     if (!cartItems) {
