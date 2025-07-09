@@ -285,7 +285,7 @@ export const food_list = [
     _id: "19",
     name: "Butterscotch Cake",
     image: food_19,
-    price: 185,
+    price: 485,
     description:
       "A rich, moist cake flavored with the sweet and buttery taste of butterscotch, often complemented with a caramelized glaze",
     category: "Cake",
